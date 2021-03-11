@@ -37,3 +37,13 @@ video {
 .p2p-media .local-stream {
   width: 30%;
 }
+
+@media screen and (max-width: 767px){
+  .p2p-media{
+    flex-direction: column;
+  }
+  .p2p-media .remote-stream,
+  .p2p-media .local-stream{
+    width: 100%;
+  }
+}
